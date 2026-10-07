@@ -117,11 +117,9 @@ Kleines Canvas-Spiel, in 30–60 Sekunden durchgespielt, mobilfreundlich.
 
 ---
 
-## 5. Offene Fragen an dich ❓
+## 5. Entscheidungen
 
-1. **Wie alt wird Jason und wann ist der Geburtstag?** (für Countdown / Zahlen-Gags)
-2. **Hast du Fotos von Jason?** Ein Gesicht zum Freistellen macht 80 % des Humors aus.
-3. **Insider-Witze / Spitznamen / Hobbys**, die rein sollen?
-4. **Sprache:** Deutsch mit Brainrot-Anglizismen (Vorschlag) oder komplett Englisch?
-5. **Spiel:** „Fanum Tax: Rette den Kuchen“ (Vorschlag) oder „Flappy Jason“?
-6. **Wie hart darf’s werden?** Lautstärke/Blinken auf Anschlag oder noch bürotauglich?
+- Keine persönlichen Daten (kein Alter, kein Datum, keine Fotos) → 🗿 als Jason.
+- Deutsch mit Brainrot-Anglizismen.
+- Spiel: „Fanum Tax: Rette den Kuchen“.
+- Volle Lautstärke und Blinken erlaubt (Anfall-Schutz-Button 😵‍💫 trotzdem vorhanden).
