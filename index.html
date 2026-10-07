@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HAPPY BIRTHDAY JASON 💀🎂</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗿</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== GATE ========== -->
+  <div id="gate">
+    <div class="gate-inner">
+      <p class="gate-warn">⚠️ WARNUNG: DIESE SEITE ENTHÄLT 9000% BRAINROT ⚠️</p>
+      <button id="gate-btn" class="mega-btn">KLICK HIER FÜR GRATIS AURA<br><small>(100% KEIN VIRUS)</small></button>
+      <div id="loader" hidden>
+        <div class="bar"><div id="bar-fill"></div></div>
+        <p id="loader-text">Lade Rizz…</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== TICKER ========== -->
+  <div class="ticker"><div class="ticker-track" id="ticker"></div></div>
+
+  <!-- ========== CONTROLS ========== -->
+  <div id="controls">
+    <button id="mute-btn" title="Ton">🔊</button>
+    <button id="calm-btn" title="Anfall-Schutz">😵‍💫</button>
+  </div>
+
+  <main id="page">
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1 class="glitch" data-text="HAPPY BIRTHDAY JASON">HAPPY BIRTHDAY JASON</h1>
+      <p class="sub rainbow-text">alles gute zum skibidi-tag du absoluter sigma 🗿🔥</p>
+
+      <div class="skibidi" id="skibidi" title="klick mich">
+        <div class="skibidi-head">🗿</div>
+        <div class="skibidi-hat">🎉</div>
+        <div class="skibidi-body">🚽</div>
+        <div class="skibidi-shoes">👟👟</div>
+      </div>
+      <p class="caption">↑ das bist du, jason. ↑ (wissenschaftlich bewiesen)</p>
+    </section>
+
+    <!-- AURA -->
+    <section class="aura-box">
+      <h2>🔮 LIVE AURA-ZÄHLER 🔮</h2>
+      <div id="aura" class="aura-num">0</div>
+      <p id="aura-reason" class="aura-reason">kalibriere aura-sensoren…</p>
+      <button id="aura-btn" class="mega-btn small">AURA FARMEN 🌾</button>
+    </section>
+
+    <!-- BRAINROT WALL -->
+    <section>
+      <h2 class="section-title">🇮🇹 ITALIAN BRAINROT GRATULATIONS-WAND 🇮🇹</h2>
+      <p class="hint">klick auf eine karte. ton an. keine fragen.</p>
+      <div class="wall" id="wall"></div>
+    </section>
+
+    <!-- SPLIT SCREEN -->
+    <section>
+      <h2 class="section-title">📱 AUFMERKSAMKEITSSPANNEN-RETTUNG 📱</h2>
+      <button id="split-btn" class="mega-btn small">SUBWAY-SURFERS-MODUS AKTIVIEREN</button>
+      <div class="split" id="split" hidden>
+        <div class="letter">
+          <h3>Ein ernster Brief</h3>
+          <p>Lieber Jason,</p>
+          <p>anlässlich deines Ehrentages möchten wir dir in aller Form und mit dem gebotenen Respekt mitteilen, dass dein Aura-Level im vergangenen Lebensjahr signifikant über dem bundesweiten Durchschnitt lag.</p>
+          <p>Die zuständige Behörde für Rizz-Angelegenheiten hat deinen Antrag auf Sigma-Status geprüft und unter Vorbehalt bewilligt. Die Fanum-Tax auf deinen Geburtstagskuchen beträgt dieses Jahr 67 %.</p>
+          <p>Wir bitten dich, das kommende Lebensjahr nicht in Ohio zu verbringen.</p>
+          <p>Hochachtungsvoll,<br>Das Skibidi-Ministerium</p>
+        </div>
+        <div class="subway">
+          <div class="lane"></div><div class="lane"></div><div class="lane"></div>
+          <div class="runner">🏃‍♂️</div>
+          <div class="train t1">🚃</div>
+          <div class="train t2">🚃</div>
+          <div class="coin c1">🪙</div>
+          <div class="coin c2">🪙</div>
+          <div class="coin c3">🪙</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAME -->
+    <section id="game-section">
+      <h2 class="section-title">🎂 FANUM TAX: RETTE DEN KUCHEN 🎂</h2>
+      <div class="legend">
+        <span>🎂 +67</span><span>🎁 +100</span><span>🕯️ Tempo + Multi</span>
+        <span>🚽 −1 Leben</span><span>🧌 FANUM TAX</span><span>📉 L</span>
+      </div>
+      <div class="game-wrap">
+        <canvas id="game" width="480" height="640"></canvas>
+        <div id="game-overlay" class="game-overlay">
+          <h3 id="go-title">BEREIT, BRUDER?</h3>
+          <p id="go-text">Maus / Pfeiltasten / Finger zum Bewegen.<br>Fang Kuchen. Meide Klos. Fürchte Fanum.</p>
+          <p id="go-best"></p>
+          <button id="game-start" class="mega-btn small">LOS GEHT'S 🚀</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERIOUS MOMENT -->
+    <section class="serious" id="serious">
+      <p class="serious-hint">…</p>
+      <div class="serious-inner">
+        <h2>Okay, kurz ernst.</h2>
+        <p>Alles Gute zum Geburtstag, Jason. Danke, dass du du bist. Bleib genau so wild, bleib gesund, und lass dir heute alles schmecken – auch das Stück Kuchen, das Fanum dir nicht weggenommen hat.</p>
+        <p>Wir feiern dich. Wirklich. ❤️</p>
+        <p class="serious-end">…okay das reicht.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Skibidi-Ministerium · Alle Rechte in Ohio vorbehalten · Tipp mal <b>sigma</b> 🤫</p>
+    </footer>
+  </main>
+
+  <div id="popups"></div>
+
+  <script src="chaos.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
